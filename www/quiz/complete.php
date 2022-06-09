@@ -22,11 +22,11 @@
     
         <h2>Your Clue Is:</h2>
         <!-- if first pi -->
-        <?php if (gethostname() == "GenCyber1") : ?>
+        <?php if (gethostname() == "SummerKit009") : ?>
             <h3 class="text-info"><?php echo "Kyasskx" ?></h3>
         <?php endif; ?>
         <!-- if second pi -->
-        <?php if (gethostname() == "GenCyber2") : ?>
+        <?php if (gethostname() == "SummerKit005") : ?>
             <h3 class="text-info"><?php echo "Eigsv" ?></h3>
         <?php endif; ?>
         <!-- if third pi -->
@@ -38,11 +38,11 @@
             <h3 class="text-info"><?php echo "Sngbk" ?></h3>
         <?php endif; ?>
         <!-- if fifth pi -->
-        <?php if (gethostname() == "GenCyber5") : ?>
+        <?php if (gethostname() == "SummerKit006") : ?>
             <h3 class="text-info"><?php echo "Iyavkx" ?></h3>
         <?php endif; ?>
         <!-- if sixth pi -->
-        <?php if (gethostname() == "GenCyber6") : ?>
+        <?php if (gethostname() == "SummerKit003") : ?>
             <h3 class="text-info"><?php echo "Xlat" ?></h3>
         <?php endif; ?>
     </main>
