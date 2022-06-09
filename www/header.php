@@ -4,7 +4,7 @@
 
     $servername = "localhost"; // chagne to localhost or something
     $username = "root";
-    $password = "sk9camp-22"; // skncamp-22 for not sk9
+    $password = "skncamp-22"; // skncamp-22 for not sk9
     $db_name = "skn";
 
     // Create connection
