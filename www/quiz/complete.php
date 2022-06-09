@@ -1,5 +1,10 @@
 <?php
     include_once("../header.php");
+    // check if completed questions, only on 2 4 6
+    if ($_SESSION['cur_q'] < NUMBER_OF_Q ) {
+        header("Location: " . BASE_URL . "../");
+    }
+
     session_destroy();
 ?>
 
@@ -21,27 +26,27 @@
         <h1>YOU ARE DONE</h1>
     
         <h2>Your Clue Is:</h2>
-        <!-- if first pi -->
+        <!-- if first pi CyberGen1 -->
         <?php if (gethostname() == "SummerKit009") : ?>
             <h3 class="text-info"><?php echo "Kyasskx" ?></h3>
         <?php endif; ?>
-        <!-- if second pi -->
+        <!-- if second pi CyberGen2 -->
         <?php if (gethostname() == "SummerKit005") : ?>
             <h3 class="text-info"><?php echo "Eigsv" ?></h3>
         <?php endif; ?>
-        <!-- if third pi -->
+        <!-- if third pi CyberGen3 -->
         <?php if (gethostname() == "GenCyber3") : ?>
             <h3 class="text-info"><?php echo "Yrkzy" ?></h3>
         <?php endif; ?>
-        <!-- if forth pi -->
+        <!-- if forth pi CyberGen4 -->
         <?php if (gethostname() == "GenCyber4") : ?>
             <h3 class="text-info"><?php echo "Sngbk" ?></h3>
         <?php endif; ?>
-        <!-- if fifth pi -->
+        <!-- if fifth pi CyberGen5 -->
         <?php if (gethostname() == "SummerKit006") : ?>
             <h3 class="text-info"><?php echo "Iyavkx" ?></h3>
         <?php endif; ?>
-        <!-- if sixth pi -->
+        <!-- if sixth pi CyberGen6 -->
         <?php if (gethostname() == "SummerKit003") : ?>
             <h3 class="text-info"><?php echo "Xlat" ?></h3>
         <?php endif; ?>
