@@ -97,4 +97,4 @@ COMMIT;
 INSERT INTO `questions` (`id`, `Question`, `a1`, `a2`, `a3`, `a4`, `ac`) VALUES
 (1, 'Encryption protects your data from ____', 'Sniffing', 'DDos', 'Social Engineering', 'Ransomware', 1),
 (2, 'Bob built the robot, and he wrote several millions of lines of code to make it move forward and backward. Several hours later robot has a problem, but he could not find the problem from the code due to too many lines of code. Which GenCyer concept didn`t Bob think of when he wrote a code?', 'Keep it Simple', 'Availablility', 'Integrity', 'Defense in Depth', 1),
-(3, 'Bob has a friend who is very nice and highly knowledgeable. One day, his friend gives Bob a USB and asks him several times to upload an unknown small file onto Bob`s computer. What would you recommend Bob?', 'Why not. Upload them into his computer.', 'No, Bob should ignore it.', '', '' 2);
+(3, 'Bob has a friend who is very nice and highly knowledgeable. One day, his friend gives Bob a USB and asks him several times to upload an unknown small file onto Bob`s computer. What would you recommend Bob?', 'Why not. Upload them into his computer.', 'No, Bob should ignore it.', '', '', 2);

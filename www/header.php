@@ -2,9 +2,9 @@
     session_start();
     require("includes/config.inc.php");
 
-    $servername = "db"; # chagne to localhost or something
-    $username = "admin";
-    $password = "toor";
+    $servername = "localhost"; // chagne to localhost or something
+    $username = "root";
+    $password = "sk9camp-22"; // skncamp-22 for not sk9
     $db_name = "skn";
 
     // Create connection
