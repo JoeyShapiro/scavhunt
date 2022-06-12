@@ -57,7 +57,7 @@
 
         <div class="p-2">
             <form action="" method="POST">
-                <h3><?php echo $_SESSION['cur_q'] . ". " . $row['Question'] ?></h3>
+                <h5><?php echo $_SESSION['cur_q'] . ". " . $row['Question'] ?></h5>
                 <div>
                     <input class="form-check-input" type="radio" name="answer" id="a1" value="1">
                         <label class="form-check-label" for="a1"><?php echo $row['a1'] ?></label><br> <!-- add tag -->

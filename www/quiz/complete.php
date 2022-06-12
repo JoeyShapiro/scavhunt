@@ -28,27 +28,27 @@
         <h2>Your Clue Is:</h2>
         <!-- if first pi CyberGen1 -->
         <?php if (gethostname() == "SummerKit009") : ?>
-            <h3 class="text-info"><?php echo "Kyasskx" ?></h3>
+            <h3 class="text-info clue"><?php echo "Kyasskx" ?></h3>
         <?php endif; ?>
         <!-- if second pi CyberGen2 -->
         <?php if (gethostname() == "SummerKit005") : ?>
-            <h3 class="text-info"><?php echo "Eigsv" ?></h3>
+            <h3 class="text-info clue"><?php echo "Eigsv" ?></h3>
         <?php endif; ?>
         <!-- if third pi CyberGen3 -->
-        <?php if (gethostname() == "GenCyber3") : ?>
-            <h3 class="text-info"><?php echo "Yrkzy" ?></h3>
+        <?php if (gethostname() == "SummerKit007") : ?>
+            <h3 class="text-info clue"><?php echo "Yrkzy" ?></h3>
         <?php endif; ?>
         <!-- if forth pi CyberGen4 -->
-        <?php if (gethostname() == "GenCyber4") : ?>
-            <h3 class="text-info"><?php echo "Sngbk" ?></h3>
+        <?php if (gethostname() == "SummerKit004") : ?>
+            <h3 class="text-info clue"><?php echo "Sngbk" ?></h3>
         <?php endif; ?>
         <!-- if fifth pi CyberGen5 -->
         <?php if (gethostname() == "SummerKit006") : ?>
-            <h3 class="text-info"><?php echo "Iyavkx" ?></h3>
+            <h3 class="text-info clue"><?php echo "Iyavkx" ?></h3>
         <?php endif; ?>
         <!-- if sixth pi CyberGen6 -->
         <?php if (gethostname() == "SummerKit003") : ?>
-            <h3 class="text-info"><?php echo "Xlat" ?></h3>
+            <h3 class="text-info clue"><?php echo "Xlat" ?></h3>
         <?php endif; ?>
     </main>
 </body>
